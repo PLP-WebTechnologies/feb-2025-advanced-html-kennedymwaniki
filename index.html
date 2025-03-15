@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Advanced HTML</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List</h2>
+        <ol type="I">
+            <li>Introduction to HTML5</li>
+            <li>Working with Forms</li>
+            <li>Using Multimedia</li>
+            <li>Tables and Lists</li>
+            <li>Advanced HTML Features</li>
+        </ol>
+    </section>
+
+    <!-- External Image -->
+    <section>
+        <h2>Featured Image</h2>
+        <img src="https://www.pexels.com/photo/mountain-landscape-12345/" alt="Beautiful Mountain Landscape" width="600">
+    </section>
+
+    <!-- Contact Table -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Main St, City</td>
+                    <td>+123456789</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Oak Ave, Town</td>
+                    <td>+987654321</td>
+                    <td>jane@example.com</td>
+                </tr>
+                <tr>
+                    <td>Emily Davis</td>
+                    <td>789 Pine Rd, Village</td>
+                    <td>+1122334455</td>
+                    <td>emily@example.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Brown</td>
+                    <td>101 Maple Ln, City</td>
+                    <td>+6677889900</td>
+                    <td>michael@example.com</td>
+                </tr>
+                <tr>
+                    <td>Sarah Wilson</td>
+                    <td>202 Elm St, Suburb</td>
+                    <td>+4455667788</td>
+                    <td>sarah@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required>
+            <br>
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br>
+            
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male"> Male
+            <input type="radio" id="female" name="gender" value="female"> Female
+            <input type="radio" id="other" name="gender" value="other"> Other
+            <br>
+            
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="us">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="ca">Canada</option>
+                <option value="au">Australia</option>
+            </select>
+            <br>
+            
+            <label>Preferences:</label>
+            <input type="checkbox" name="updates"> Receive Updates
+            <input type="checkbox" name="terms" required> Accept Terms & Conditions
+            <br>
+            
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    
+    <section>
+        <h2>Multimedia</h2>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <br>
+        <video controls width="600">
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+</body>
+</html>
